@@ -1,4 +1,4 @@
 # INFINIX MOBILITY LIMITED
 
-* repositories
+### repositories ###
 * https://github.com/search?q=X657B&type=repositories
