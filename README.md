@@ -27,9 +27,7 @@ BasedA10, BasedA11, ARM32-binder with ARM64-bit SoC.
 ### Additional
 
 * requirements stock (fw)
-###### vbmeta.img
-###### vbmeta_system.img
-###### vbmeta_vendor.img
+###### vbmeta.img, vbmeta_system.img, vbmeta_vendor.img, boot.img, recovery.img
 
 	on screen
 		adb devices -> (allow)
@@ -52,13 +50,13 @@ BasedA10, BasedA11, ARM32-binder with ARM64-bit SoC.
 		fastboot delete-logical-partition system_ext
 		fastboot delete-logical-partition product
 		
-	on fastbootd (installing)
-		fastboot erase system
-		fastboot flash system system.img
-
 ###### system-arm32_binder64-ab.img.xz -> extract system-arm32_binder64-ab.img
 ###### rename system-arm32_binder64-ab.img -> system.img
 
+	on fastbootd (installing)
+		fastboot erase system
+		fastboot flash system system.img
+		
 	on fastbootd (options)
 		fastboot -w <- (wipe)
 		
