@@ -1,6 +1,6 @@
 # INFINIX MOBILITY LIMITED™
 
-### repositories ###
+###### Repositories available
 * https://github.com/search?q=X657B&type=repositories
 
 ###### TWRP available
