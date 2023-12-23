@@ -53,8 +53,10 @@ BasedA10, BasedA11, ARM32-binder with ARM64-bit SoC.
 		fastboot delete-logical-partition system_ext
 		fastboot delete-logical-partition product
 		
-###### system-arm32_binder64-ab.img.xz -> extract system-arm32_binder64-ab.img
-###### rename system-arm32_binder64-ab.img -> system.img
+###### system-arm32_binder64-ab.img.xz -> extract system-arm32_binder64-ab.img rename system-arm32_binder64-ab.img -> system.img
+
+![1000009260](https://github.com/LinggaCR17/BasedSources-X657B/assets/43074091/d85e39e3-dcca-4780-9256-9f91e2c8e7dd)
+
 
 	on fastbootd (installing)
 		fastboot erase system
