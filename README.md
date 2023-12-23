@@ -57,6 +57,8 @@ BasedA10, BasedA11, ARM32-binder with ARM64-bit SoC.
 		
 ###### system-arm32_binder64-ab.img.xz -> extract system-arm32_binder64-ab.img -> rename system-arm32_binder64-ab.img -> system.img
 
+* https://github.com/LinggaCR17/BasedSources-X657B/releases/tag/dev
+
 ![1000009260](https://github.com/LinggaCR17/BasedSources-X657B/assets/43074091/d85e39e3-dcca-4780-9256-9f91e2c8e7dd)
 
 
