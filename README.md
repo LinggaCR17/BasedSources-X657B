@@ -23,3 +23,48 @@ BasedA10, BasedA11, ARM32-binder with ARM64-bit SoC.
 * system-arm32_binder64-ab.img.xz
 
 ![1000009251](https://github.com/LinggaCR17/BasedSources-X657B/assets/43074091/786c6f62-8bb0-422c-85de-364b93eb0a87)
+
+### Additional
+
+* requirements stock (fw)
+###### vbmeta.img
+###### vbmeta_system.img
+###### vbmeta_vendor.img
+
+	on screen
+		adb devices -> (allow)
+		adb reboot bootloader
+		
+	on bootloader
+		fastboot devices
+		fastboot --disable-verification flash vbmeta vbmeta.img
+		fastboot --disable-verification flash vbmeta vbmeta_system.img
+		fastboot --disable-verification flash vbmeta vbmeta_vendor.img
+		
+	on bootloader (options)
+		fastboot flash boot magisk_patch-boot.img
+		fastboot flash recovery your_twrp-recovery.img
+		
+	fastboot reboot fastboot
+	
+	on fastbootd
+		fastboot getvar is-userspace
+		fastboot delete-logical-partition system_ext
+		fastboot delete-logical-partition product
+		
+	on fastbootd (installing)
+		fastboot erase system
+		fastboot flash system system.img
+
+###### system-arm32_binder64-ab.img.xz -> extract system-arm32_binder64-ab.img
+###### rename system-arm32_binder64-ab.img -> system.img
+
+	on fastbootd (options)
+		fastboot -w <- (wipe)
+		
+		fastboot reboot
+		
+		or:
+		
+		fastboot reboot recovery
+		
