@@ -29,6 +29,9 @@ BasedA10, BasedA11, ARM32-binder with ARM64-bit SoC.
 * requirements stock (fw)
 ###### vbmeta.img, vbmeta_system.img, vbmeta_vendor.img, boot.img, recovery.img
 
+![1000009257](https://github.com/LinggaCR17/BasedSources-X657B/assets/43074091/84360dc8-2579-4e18-8834-eaa88a069c0f)
+
+
 	on screen
 		adb devices -> (allow)
 		adb reboot bootloader
