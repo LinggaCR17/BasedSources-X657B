@@ -27,7 +27,9 @@ BasedA10, BasedA11, ARM32-binder with ARM64-bit SoC.
 ### Additional
 
 * requirements stock (fw)
-###### vbmeta.img, vbmeta_system.img, vbmeta_vendor.img, boot.img, recovery.img
+###### vbmeta.img, vbmeta_system.img, vbmeta_vendor.img, boot.img, recovery.img, system.img
+
+* Move all file to minimal_adb-fastboot
 
 ![1000009257](https://github.com/LinggaCR17/BasedSources-X657B/assets/43074091/84360dc8-2579-4e18-8834-eaa88a069c0f)
 
